@@ -63,7 +63,7 @@ for i = 1:m
     
     %Compute train/cross-validation errors
     [J_train, ] = linearRegCostFunction(X_train, y_train, theta, 0); 
-	[J_val, ] = linearRegCostFunction(Xval, yval, theta, 0);
+    [J_val, ] = linearRegCostFunction(Xval, yval, theta, 0);
 
     error_train(i) = J_train;
 
